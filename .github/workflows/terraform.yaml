@@ -33,7 +33,7 @@ jobs:
     - uses: aws-actions/configure-aws-credentials@v4
       with:
         role-to-assume: ${{ vars.AWS_IAM_ROLE_ARN }}
-        aws-region: ${{ vars.AWS_REGION }}
+        aws-region: ${{ env.AWS_REGION }}
     # https://github.com/hashicorp/setup-terraform/issues/298
     - name: Get Terraform Version
       id: tf_version
