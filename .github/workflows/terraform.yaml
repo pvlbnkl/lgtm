@@ -32,7 +32,7 @@ jobs:
     - uses: actions/checkout@v4
     - uses: aws-actions/configure-aws-credentials@v4
       with:
-        role-to-assume: arn:aws:iam::245582572290:role/GithubActionsCICD
+        role-to-assume: arn:aws:iam::245582572290:role/lgtm-GHA
         aws-region: us-east-1
     # https://github.com/hashicorp/setup-terraform/issues/298
     - name: Get Terraform Version
