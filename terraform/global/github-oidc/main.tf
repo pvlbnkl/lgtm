@@ -25,13 +25,13 @@ data "aws_iam_policy_document" "github_oidc_assume" {
     condition {
       test     = "StringLike"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:pbunakalia/lgtm:*"]
+      values   = ["repo:pvlbnkl/lgtm:*"]
     }
   }
 }
 
 resource "aws_iam_role" "github_cicd" {
-  name               = "GithubActionsCICD"
+  name               = "lgtm-GHA"
   assume_role_policy = data.aws_iam_policy_document.github_oidc_assume.json
   managed_policy_arns = [
     "arn:aws:iam::aws:policy/AdministratorAccess"
