@@ -12,11 +12,11 @@ Grafana LGTM (Loki, Grafana, Tempo, Mimir) + Alloy observability stack setup on 
 
 ### Access the stack
 
-- https://grafana.sandbox.lgtm.vtatarin.xyz (credentials are stored in AWS Secrets Manager)
-- https://argocd.sandbox.lgtm.vtatarin.xyz (credentials are stored in AWS Secrets Manager)
-- https://foo.sandbox.lgtm.vtatarin.xyz/foo
-- https://foo.sandbox.lgtm.vtatarin.xyz/cow
-- https://bar.sandbox.lgtm.vtatarin.xyz/bar
+- https://grafana.sandbox.lgtm.pvlbnkl.xyz (credentials are stored in AWS Secrets Manager)
+- https://argocd.sandbox.lgtm.pvlbnkl.xyz (credentials are stored in AWS Secrets Manager)
+- https://foo.sandbox.lgtm.pvlbnkl.xyz/foo
+- https://foo.sandbox.lgtm.pvlbnkl.xyz/cow
+- https://bar.sandbox.lgtm.pvlbnkl.xyz/bar
 
 ### Contribute
 

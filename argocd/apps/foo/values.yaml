@@ -9,8 +9,8 @@ application:
       BAR_ENDPOINT:
         value: "http://bar.bar.svc.cluster.local:5000/bar"
     image:
-      repository: 437023642520.dkr.ecr.us-east-2.amazonaws.com/foo
-      tag: 6d5590f0a95fa73f042ce29b44a855b4a8181791
+      repository: 245582572290.dkr.ecr.us-east-1.amazonaws.com/foo
+      tag: fcaaab69fa3833db04baaa345b67010bbd6e49cf
     resources:
       limits:
         memory: 64Mi
@@ -47,7 +47,7 @@ application:
       alb.ingress.kubernetes.io/ssl-redirect: '443'
       alb.ingress.kubernetes.io/target-type: ip
     hosts:
-      - host: foo.sandbox.lgtm.vtatarin.xyz
+      - host: foo.sandbox.lgtm.pvlbnkl.xyz
         paths:
         - path: /
           pathType: Prefix

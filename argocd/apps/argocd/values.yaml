@@ -2,7 +2,7 @@ argocd:
   global:
     logging:
       format: json
-    domain: argocd.sandbox.lgtm.vtatarin.xyz
+    domain: argocd.sandbox.lgtm.pvlbnkl.xyz
   server:
     ingress:
       https: true

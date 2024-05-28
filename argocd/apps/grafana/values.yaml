@@ -3,7 +3,7 @@ grafana:
     enabled: true
     ingressClassName: alb
     hosts:
-      - grafana.sandbox.lgtm.vtatarin.xyz
+      - grafana.sandbox.lgtm.pvlbnkl.xyz
     annotations:
       kubernetes.io/ingress.class: alb
       alb.ingress.kubernetes.io/group.name: grafana
