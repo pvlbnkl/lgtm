@@ -13,7 +13,7 @@ tempo:
       s3:
         endpoint: s3.us-east-1.amazonaws.com
         region: us-east-1
-        bucket: eks-sandbox-tempo
+        bucket: eks-sandbox-tempo-1
   traces:
     otlp:
       grpc:

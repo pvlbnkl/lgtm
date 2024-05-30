@@ -25,7 +25,7 @@ loki:
       #   index_gateway_client:
       #     server_address: dns:///index-gateway.loki.svc.cluster.local:9095
       aws:
-        bucketnames: eks-sandbox-loki
+        bucketnames: eks-sandbox-loki-1
         s3: s3://us-east-1
   # ingester:
   #   persistence:
