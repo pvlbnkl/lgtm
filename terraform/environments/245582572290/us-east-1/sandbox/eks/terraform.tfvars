@@ -1,5 +1,5 @@
 service     = "eks"
-environment = "sandbox"
+environment = "playground"
 
 vpc_id = "vpc-01ab44431f5597901"
 
