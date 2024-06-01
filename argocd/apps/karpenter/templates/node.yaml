@@ -43,4 +43,4 @@ spec:
         kubernetes.io/role/elb: "1"
   securityGroupSelectorTerms:
     - tags:
-        Name: "eks-sandbox-node"
+        Name: "eks-playground-node"

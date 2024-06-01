@@ -5,7 +5,7 @@ karpenter:
     create: true
     name: karpenter
     annotations:
-      eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-sandbox-karpenter
+      eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-playground-karpenter
   affinity:
     nodeAffinity:
       preferredDuringSchedulingIgnoredDuringExecution:
@@ -18,5 +18,5 @@ karpenter:
   logConfig:
     logEncoding: json
   settings:
-    clusterName: eks-sandbox
+    clusterName: eks-playground
     # interruptionQueue:

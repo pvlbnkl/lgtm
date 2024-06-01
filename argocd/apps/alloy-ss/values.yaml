@@ -131,7 +131,7 @@ alloy:
         loki.process "static_labels" {
           stage.static_labels {
             values = {
-              cluster = "eks-sandbox",
+              cluster = "eks-playground",
             }
           }
           forward_to = [loki.write.main.receiver]

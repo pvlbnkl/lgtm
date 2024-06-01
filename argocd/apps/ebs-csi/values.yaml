@@ -6,7 +6,7 @@ ebs-csi:
     serviceAccount:
       name: ebs-csi
       annotations:
-        eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-sandbox-ebs-csi
+        eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-playground-ebs-csi
   storageClasses:
     - name: ebs
       annotations:

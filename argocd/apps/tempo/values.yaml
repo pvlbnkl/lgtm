@@ -6,7 +6,7 @@ tempo:
     create: true
     name: tempo
     annotations:
-      eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-sandbox-tempo
+      eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-playground-tempo
   storage:
     trace:
       backend: s3

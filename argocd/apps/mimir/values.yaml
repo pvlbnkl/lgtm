@@ -3,7 +3,7 @@ mimir:
     create: true
     name: mimir
     annotations:
-      eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-sandbox-mimir
+      eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-playground-mimir
   mimir:
     structuredConfig:
       common:
@@ -11,17 +11,17 @@ mimir:
           backend: s3
           s3:
             endpoint: s3.us-east-1.amazonaws.com
-            bucket_name: eks-sandbox-mimir
+            bucket_name: eks-playground-mimir
             region: us-east-1
       blocks_storage:
         s3:
-          bucket_name: eks-sandbox-mimir-blocks
+          bucket_name: eks-playground-mimir-blocks
       alertmanager_storage:
         s3:
-          bucket_name: eks-sandbox-mimir-alertmanager
+          bucket_name: eks-playground-mimir-alertmanager
       ruler_storage:
         s3:
-          bucket_name: eks-sandbox-mimir-ruler
+          bucket_name: eks-playground-mimir-ruler
   metaMonitoring:
     serviceMonitor: enabled
   # small.yaml

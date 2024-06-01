@@ -8,6 +8,6 @@ external-dns:
   serviceAccount:
     name: external-dns
     annotations:
-      eks.amazonaws.com/role-arn: arn:aws:iam::245582572290:role/eks-sandbox-external-dns
+      eks.amazonaws.com/role-arn: arn:aws:iam::245582572290:role/eks-playground-external-dns
   serviceMonitor:
     enabled: true

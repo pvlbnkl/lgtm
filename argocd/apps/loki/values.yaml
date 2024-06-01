@@ -5,7 +5,7 @@ loki:
     create: true
     name: loki
     annotations:
-      eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-sandbox-loki
+      eks.amazonaws.com/role-arn: arn:aws:iam::437023642520:role/eks-playground-loki
   loki:
     schemaConfig:
       configs:
@@ -25,7 +25,7 @@ loki:
       #   index_gateway_client:
       #     server_address: dns:///index-gateway.loki.svc.cluster.local:9095
       aws:
-        bucketnames: eks-sandbox-loki
+        bucketnames: eks-playground-loki
         s3: s3://us-east-1
   # ingester:
   #   persistence:
