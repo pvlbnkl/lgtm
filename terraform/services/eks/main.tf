@@ -70,7 +70,7 @@ module "eks" {
 
       policy_associations = {
         admin = {
-          policy_arn = "arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterPolicy"
+          policy_arn = "arn:aws:eks::aws:cluster-access-policy/AmazonEKSAdminPolicy"
           access_scope = {
             type = "cluster"
           }
@@ -82,7 +82,7 @@ module "eks" {
 
       policy_associations = {
         admin = {
-          policy_arn = "arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterClusterPolicy"
+          policy_arn = "arn:aws:eks::aws:cluster-access-policy/AmazonEKSAdminPolicy"
           access_scope = {
             type = "cluster"
           }
